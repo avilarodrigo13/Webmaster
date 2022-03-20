@@ -1,0 +1,64 @@
+h1{
+    color: black;
+    text-align: center;
+    background: rgb(251,249,63);
+    background: radial-gradient(circle, rgba(251,249,63,0.8995973389355743) 18%, rgba(154,154,154,0.865983893557423) 47%);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 10px 10px 15px black;
+    border-radius: 11px 0px 11px 0px;
+    -webkit-border-radius: 11px 0px 11px 0px;
+    -moz-border-radius: 11px 0px 11px 0px;
+}
+h2{
+    color: black;
+    text-align: left;
+    padding-left: 10px;
+    background: rgb(168,168,168);
+    background: linear-gradient(90deg, rgba(168,168,168,0.8827906162464986) 0%, rgba(215,217,25,0.8939950980392157) 50%);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 10px 10px 15px black;
+    border-radius: 11px 0px 11px 0px;
+    -webkit-border-radius: 11px 0px 11px 0px;
+    -moz-border-radius: 11px 0px 11px 0px;
+}
+p{
+    color: black;
+    text-align: left;
+    background-color: white;
+    font-size: 15px;
+}
+.destacados{
+    color: black;
+    text-align: left;
+    background-color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#cuestionario{
+    background-color: whitesmoke;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    border: 3px solid gray;
+
+}
+.cambiodecolor{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid gray;
+}
+.cambiodecolor:hover{
+    background-color: blue;
+    color: red;
+    border: dashed 5px black;
+    cursor: pointer;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae Rodrigo Avila</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CVRodrigoAvila.css">
+</head>
+<body>
+    <!-- Para agregar comentarios presionar Control + Tecla izquierda Enter -->
+    <header>
+        <h1>Rodrigo Avila</h1>
+    </header>
+
+    <img src="img/Foto.jpg" alt="Foto">
+
+    <ul>
+        <li><span class="destacados">DNI:</span> 35.527.593</li>
+        <li><span class="destacados">CUIL:</span> 20-35527593-1</li>
+        <li><span class="destacados">Fecha de nacimiento:</span> 16/10/1990</li>
+    </ul>
+
+    <h2>Educacion</h2>
+    <p class="destacados">2013-2017. Estudiante de Ingeniería en Software.</p>
+    <p>Córdoba, Argentina. Universidad Siglo XXI.</p>
+    <p class="destacados">2009-2012. Estudiante de Ingeniería Electrónica.</p>
+    <p>Córdoba, Argentina. Facultad de Ciencias Exactas, Físicas y Naturales. UNC.</p>
+
+    <h2>Cursos</h2>
+    <ul>
+        <li><span class="destacados">Técnicas de venta.</span> (Curso online dictado por la Cámara Argentina de Comercio y Servicio)</li>
+        <li><span class="destacados">Excelencia en el servicio y atención al cliente.</span> (Curso online dictado por la Cámara Argentina de Comercio y Servicio)</li>
+        <li><span class="destacados">Líderes de hoy.</span> (Curso online dictado por la Cámara Argentina de Comercio y Servicio)</li>
+        <li><span class="destacados">Feedback.</span> (Curso online dictado por la Cámara Argentina de Comercio y Servicio)</li>
+        <li><span class="destacados">Aprenda a invertir en la bolsa.</span> (Invertir Online)</li>
+    </ul>
+
+    <h2>Experiencia Laboral</h2>
+    <p><span class="destacados">10/2021-Presente.</span> <a href="https://www.newsport.com.ar/" target="_blank">Newsport</a></p>
+    <p>Córdoba, Argentina. Sub-encargado de sucursal.</p>
+    <p><span class="destacados">03/2017-10/2021.</span> <a href="https://tiendapodium.com.ar/" target="_blank">Handicap Deportes - Tienda Podium</a></p>
+    <p>Córdoba, Argentina. Encargado General (de 3 sucursales).</p>
+    <p><span class="destacados">09/2015-11/2016.</span> TECHO, Relevamiento de Barrios Populares y Asentamienos informales</p>
+    <p>Córdoba, Argentina. Coordinador Regional de Cuyo y pcia. de La Pampa // Rastrillador de Córdoba</p>
+    <p><span class="destacados"></span>01/2014-02/2015.</span> GAMA S.A., montaje y mantenimiento de instalaciones de Gas</p>
+    <p>Córdoba, Argentina. Ayudante de Gasista Matriculado</p>
+
+    <h2>Referencias</h2>
+    <p><span class="destacados">Newsport.</span></p>
+    <p><span class="destacados">Handicap Deportes - Podium.</span> Natalia Tatian (RRHH). natalia.tatian@tiendapodium.com.ar</p>
+    <p><span class="destacados">Asociación Civil TECHO.</span> Rocio Quinteros (RRHH) Tel: 1169455101. Juan Debandi (Coordinador del RAI sede Córdoba) Tel: 3517618627. Esteban Fernández (Coordinador de Calidad del RAI). Tel: 1160118946</p>
+   
+    <h2>Contacto</h2>
+    <div id="cuestionario">
+        <form action="">
+            <p>
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre">
+            </p>
+            <p>
+                <label for="Apellido">Apellido</label>
+                <input type="text" name="Apellido">
+            </p>
+            <p>
+                <label for="">Mail</label>
+                <input type="text" placeholder="ejemplo@gmail.com">
+            </p>
+            <p>
+                <label for="Contraseña">Contraseña</label>
+                <input type="password" name="Contraseña">
+            </p>
+            <p>
+                <label for="Sexo">Sexo</label>
+                <ul>
+                    <li>
+                        <input type="radio" name="Sexo" value="Hombre">
+                        <label for="Hombre">Hombre <i class="fa-solid fa-mars"></i></label>
+                    </li>
+                    <li>
+                        <input type="radio" name="Sexo" value="Mujer">
+                        <label for="Mujer">Mujer <i class="fa-solid fa-venus"></i></label>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                <label for="Titulo">Titulo</label>
+                <select name="Titulo">
+                    <option value="Primario">Primario</option>
+                    <option value="Secundario">Secundario</option>
+                    <option value="Tersiario">Tersiario</option>
+                    <option value="Universitario">:Universitario</option>
+                </select>
+            </p>
+            <P>
+                <label for="">Mensaje:</label>            
+            </P>
+            <p>
+                <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </p>
+        </form>
+    </div>
+    <p class="cambiodecolor">Botón</p>
+</body>
+</html>
