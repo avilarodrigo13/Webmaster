@@ -1,0 +1,35 @@
+.contenedor{
+background-color: white;
+border: black 2px solid;
+display: inline-flex;
+height: 300px;
+align-items: center;
+flex-direction: row-reverse;
+}
+.itemrojo{
+background-color: red;
+width: 100px;
+height: 100px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.itemazul{
+background-color: blue;
+width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+.itemverde{
+background-color: green;
+width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
